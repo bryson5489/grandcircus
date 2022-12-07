@@ -1,0 +1,149 @@
+*{
+ font-family: Roboto ;
+}
+nav {
+    background-color: #f2f2f2;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 15px;
+  }
+
+  .top-links {
+    margin-left: 25px;
+    word-spacing: 1ch;
+  }
+  
+  .span-1 {
+    color: #20a8b4;
+  }
+  
+  .google {
+    /*  this is the class that I used to put the extra grand circus logo up. will need to take down later to make sure that the new image can be put in cleanly.😂*/
+    padding-top: 50px;
+    padding-right: 200px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    font-size: x-large;
+  }
+  a:active {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .top-links {
+    padding-bottom: 15px;
+    margin-left: 50px;
+
+  }
+  
+  a:hover {
+    
+    text-decoration: none;
+    color:#ff5c0f
+  }
+  
+  .span-2 {
+    color: #ff5c0f;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 30px;
+  }
+  
+  /* 
+  h1::after {
+    content: "TOP";
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    font-size: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 220px;
+  }
+   */
+  .learn-more {
+    position: relative;
+    left: 15px;
+    background-color: #20a8b4;
+    color: white;
+    height: 45px;
+    width: 90px;
+    outline: auto;
+    outline-style: round;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .learn-code {
+    font-size: large;
+  }
+  whole-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-us {
+    background-color: #20a8b4;
+    color: white;
+    height: 40px;
+    width: 90px;
+
+    outline: auto;
+    outline-style: round;
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 0.25in;
+    float: none;
+  }
+  
+
+  
+  p {
+    position: relative;
+    left: 15px;
+  }
+  
+  article {
+    float: left;
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+  }
+  
+  .heading:first-child() {
+    color: #20a8b4;
+  }
+
+  
+  .image {
+    float: right;
+    margin-left: 70px;
+    margin-top: 150px;
+  }
+
+  @media screen and (max-width: 768px) {
+    button{
+        width: 100%
+    }
+  }
+
+
+button:hover{
+    background-color: #ff5c0f;
+}
