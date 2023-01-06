@@ -1,5 +1,5 @@
 *{
- font-family: Roboto ;
+  Font-family: Roboto 
 }
 nav {
     background-color: #f2f2f2;
@@ -111,6 +111,8 @@ nav {
     margin-left: 0.25in;
     float: none;
   }
+
+  
   
 
   
@@ -137,10 +139,19 @@ nav {
     margin-top: 150px;
   }
 
-  @media screen and (max-width: 768px) {
+  button{
+    width: auto;
+  }
+
+  @media all and (min-width: 768px) {
     button{
         width: 100%
     }
+
+    .image{
+      display: none;
+    }
+    
   }
 
 
