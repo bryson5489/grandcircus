@@ -19,7 +19,7 @@ nav {
   }
   
   .google {
-    /*  this is the class that I used to put the extra grand circus logo up. will need to take down later to make sure that the new image can be put in cleanly.😂*/
+   
     padding-top: 50px;
     padding-right: 200px;
   }
@@ -143,16 +143,25 @@ nav {
     width: auto;
   }
 
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 769px) {
     button{
-        width: 100%
+        width: auto
+    }
+
+    .image{
+      display: none
+    }
+  }
+/* 
+  @media all and (max-width: 768px){
+    button{
+      width: 100%;
     }
 
     .image{
       display: none;
     }
-    
-  }
+  } */
 
 
 button:hover{
