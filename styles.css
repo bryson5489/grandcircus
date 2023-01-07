@@ -143,7 +143,7 @@ nav {
     width: auto;
   }
 
-  @media all and (min-width: 769px) {
+  @media all and (min-width: 768px) {
     button{
         width: 100%
     }
@@ -153,8 +153,7 @@ nav {
     }
   }
 
-  /* I was not sure how to do it with only using the min-width property, so i just made it so as soon as the screen size
-  goes under 767px, then the changes will be made. */
+ 
 
 
 button:hover{
